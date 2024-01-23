@@ -49,7 +49,7 @@ def home():
         f"To get a list of all the stations use: /api/v1.0/stations<br/>"
         f"To get the dates and temperatures from the most active station use: /api/v1.0/tobs<br/>"
         f"To get the minimum temperature, the average temperature, and the maximum temperature for a specified start use: /api/v1.0/yyyy-mm-dd<br/>"
-        f"minimum temperature, the average temperature, and the maximum temperature for a specified start-end range. /api/v1.0/yyyy-mm-dd/yyyy-mm-dd"
+        f"To get the minimum temperature, the average temperature, and the maximum temperature for a specified start-end range. /api/v1.0/yyyy-mm-dd/yyyy-mm-dd"
     )
 
 @app.route("/api/v1.0/precipitation")
