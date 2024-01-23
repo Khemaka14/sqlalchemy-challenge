@@ -9,10 +9,11 @@ In this part, we use SQLAlchemy ORM queries, Pandas, and Matplotlib to look at t
 
 # Part 2
 In this part, we create our own Flask API using the data from the queries made in the previous part.
-
+```
 There are five different routes we can use
 For the precipitation results from the past 12 months use: /api/v1.0/precipitation
 To get a list of all the stations use: /api/v1.0/stations
 To get the dates and temperatures from the most active station use: /api/v1.0/tobs
 To get the minimum temperature, the average temperature, and the maximum temperature for a specified start use: /api/v1.0/yyyy-mm-dd
 To get the minimum temperature, the average temperature, and the maximum temperature for a specified start-end range. /api/v1.0/yyyy-mm-dd/yyyy-mm-dd"
+```
